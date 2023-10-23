@@ -5,7 +5,7 @@
 ```
 pip install -r prerequisites.txt
 ```
-* Copy the absloute path of [this json file](https://github.com/asif-shahriar/Pytest-Web_Automation/blob/master/json_factory/registration.json "registration.json") and paste them in [Registration class variable](https://github.com/asif-shahriar/Pytest-Web_Automation/blob/master/testcases/Registration.py "Registration.py") and also in [Test Run 2 global variable](https://github.com/asif-shahriar/Pytest-Web_Automation/blob/master/runner/Test_Run2.py "Test_Run2.py"). The directory should look like this: **"D:\\\Your Folder name\\\json_factory\\\registration.json"**
+* Copy the absloute path of [this json file](https://github.com/asif-shahriar/Pytest-Web_Automation/blob/master/json_factory/registration.json "registration.json") and paste them in [Registration.py > registration_json_directory](https://github.com/asif-shahriar/Pytest-Web_Automation/blob/master/testcases/Registration.py "Registration.py") and also in [Test Run 2.py > registration_directory](https://github.com/asif-shahriar/Pytest-Web_Automation/blob/master/runner/Test_Run2.py "Test_Run2.py"). The directory should look like this: **"D:\\\Your Folder name\\\json_factory\\\registration.json"**
 
 ## How to run this project
 * Open terminal in the root folder
