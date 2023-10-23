@@ -31,3 +31,7 @@ python -m pytest -m regression runner -vv -s --alluredir=allure-results --clean-
 ```
 allure serve allure-results
 ```
+## Allure Report Screenshot
+![allure](https://github.com/asif-shahriar/Pytest-Web_Automation/assets/71173675/307defeb-3736-4e15-bcde-9a29852f8a41)
+
+
