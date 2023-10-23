@@ -13,15 +13,21 @@ pip install -r prerequisites.txt
 ```
 python -m pytest runner -vv -s --alluredir=allure-results --clean-alluredir
 ```
-* If you want to run only the smoke/regression test cases, give either of the follwing command:
+```
+allure serve allure-results
+```
+* **Optional:** If you want to run only the **smoke/regression** test cases, give either of the follwing command:
 ```
 python -m pytest -m smoke runner -vv -s --alluredir=allure-results --clean-alluredir
 ```
+```
+allure serve allure-results
+```
 * OR, 
+
 ```
 python -m pytest -m regression runner -vv -s --alluredir=allure-results --clean-alluredir
 ```
-* AND FINALLY:
 ```
 allure serve allure-results
 ```
