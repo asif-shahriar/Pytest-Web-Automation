@@ -10,14 +10,14 @@ pip install -r prerequisites.txt
 
 ## How to run this project
 * Open terminal in the root folder
-* Give the following commands:
+* Give the following set of commands:
 ```
 python -m pytest runner -vv -s --alluredir=allure-results --clean-alluredir
 ```
 ```
 allure serve allure-results
 ```
-* **Optional:** If you want to run only the **smoke/regression** test cases, give either of the follwing command:
+* **Optional:** If you want to run only the **smoke/regression** test cases, give either of the follwing set of commands:
 ```
 python -m pytest -m smoke runner -vv -s --alluredir=allure-results --clean-alluredir
 ```
