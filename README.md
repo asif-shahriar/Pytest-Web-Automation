@@ -1,6 +1,7 @@
 # Web automation using Pytest Selenium
 ## Prerequisites
 * Install **Python** and **PyCharm** in your local device
+* Clone the project 
 * Open terminal in the root folder and run the following command:
 ```
 pip install -r prerequisites.txt
